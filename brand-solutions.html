@@ -58,6 +58,21 @@
             .section-3 {
                 background-color: #8ecae6 !important;
             }
+
+            /* Make Row 1, 3, and 5 (Items 1, 2, 5, 6, 9, 10) Sky Blue */
+            .services-intro_service:nth-child(4n+1),
+            .services-intro_service:nth-child(4n+2) {
+                background-color: #8ecae6 !important;
+            }
+
+            /* Odd rows (1st, 3rd, 5th, etc.) -> Sky Blue */
+            .expandable-single:nth-child(odd) {
+                background-color: #8ecae6 !important;
+            }
+            /* Even rows (2nd, 4th, 6th, etc.) -> Yellow */
+            .expandable-single:nth-child(even) {
+                background-color: #ffcc33 !important;
+
         </style>
         <link href="https://fonts.googleapis.com" rel="preconnect"/>
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"/>
